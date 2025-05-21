@@ -1,0 +1,34 @@
+.login-page {
+  background-image: url("../assets/F1Home11.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.login-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.login-container {
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+}
+
+.login-card {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 600px;
+}
