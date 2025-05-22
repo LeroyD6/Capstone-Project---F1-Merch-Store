@@ -80,6 +80,7 @@ function Cart() {
           </Card>
         ) : (
           <>
+            {/* Cart Items */}
             <Card className="cart-items-card mb-4">
               <Card.Header className="bg-dark text-white">
                 <h3>Cart Items</h3>
@@ -147,7 +148,7 @@ function Cart() {
                 </Table>
               </Card.Body>
             </Card>
-
+            {/* Shipping Options */}
             <Row>
               <Col md={6}>
                 <Card className="shipping-card mb-4">
@@ -203,6 +204,7 @@ function Cart() {
                 </Card>
               </Col>
 
+              {/* Summary Card */}
               <Col md={6}>
                 <Card className="summary-card">
                   <Card.Header className="bg-dark text-white">

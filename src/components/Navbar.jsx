@@ -7,7 +7,7 @@ import "./Navbar.css";
 function NavigationBar({ loggedIn, handleLogout }) {
   const navigate = useNavigate(); 
   
-  
+  // Function to handle logout and redirect to login page
   const handleLogoutAndRedirect = () => {
     handleLogout(); 
     navigate("/login"); 

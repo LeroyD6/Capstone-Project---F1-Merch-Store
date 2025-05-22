@@ -5,6 +5,7 @@ const initialState = {
   totalPrice: 0
 };
 
+// Cart slice for managing cart state
 const cartSlice = createSlice({
   name: 'cart',
   initialState,

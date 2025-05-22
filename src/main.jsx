@@ -16,4 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 /* References 
- watched youtube video by Nova designs on react router - https://www.youtube.com/watch?v=c02YoWR9gSY&t=22s*/
+ watched youtube video by Nova designs on react router - https://www.youtube.com/watch?v=c02YoWR9gSY&t=22s
+  watched youtube video by Nova designs on redux toolkit - https://www.youtube.com/watch?v=LWiMVumNxZ8&t=183s
+  watched youtube video by Nova designs on git and github - https://www.youtube.com/watch?v=9ToMEN_Hys0&t=233s
+ */

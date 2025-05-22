@@ -59,10 +59,10 @@ To run this project locally:
 
 4. **Start the development server**:
    ```bash
-   npm start
+   npm run dev
    ```
 
-Open in your browser: [http://localhost:3000](http://localhost:3000)
+Open in your browser: [http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -78,22 +78,3 @@ Open in your browser: [http://localhost:3000](http://localhost:3000)
 | `/about`       | Learn about the store and find contact information. |
 
 ---
-
-## 📁 File Structure
-
-```
-F1-Merch-Store/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── ... (individual component files)
-│   │   ├── Store.jsx
-│   │   └── cartSlice.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .gitignore
-├── package.json
-└── README.md
-```

@@ -130,7 +130,7 @@ function About() {
           {/* Social icons */}
           <div className="text-center my-3">
             <a
-              href="https://facebook.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-light mx-2"
@@ -138,7 +138,7 @@ function About() {
               <FaFacebookF size={20} />
             </a>
             <a
-              href="https://instagram.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-light mx-2"
@@ -146,7 +146,7 @@ function About() {
               <FaInstagram size={20} />
             </a>
             <a
-              href="https://twitter.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-light mx-2"
