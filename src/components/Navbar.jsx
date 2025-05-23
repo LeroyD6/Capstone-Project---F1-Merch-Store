@@ -4,7 +4,7 @@ import { Navbar, Nav, Container, Image, Button } from "react-bootstrap";
 import "./navbar.css";
 
 
-function navigationBar({ loggedIn, handleLogout }) {
+function NavigationBar({ loggedIn, handleLogout }) {
   const navigate = useNavigate(); 
   
   // Function to handle logout and redirect to login page
@@ -63,4 +63,4 @@ function navigationBar({ loggedIn, handleLogout }) {
   );
 }
 
-export default navigationBar;
+export default NavigationBar;

@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 import "./login.css";
 
-function login({ setLoggedIn, setUsername, setTotal }) {
+function Login({ setLoggedIn, setUsername, setTotal }) {
   const navigate = useNavigate();
 
   // Validate form input
@@ -118,7 +118,7 @@ function login({ setLoggedIn, setUsername, setTotal }) {
   );
 }
 
-export default login;
+export default Login;
 /* References:
 1. Formik Documentation: https://formik.org/docs/overview 
 */

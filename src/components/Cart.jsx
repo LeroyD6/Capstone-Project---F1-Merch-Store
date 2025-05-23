@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Container, Card, Table, Button, Modal, Form, Row, Col, Alert } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
-import { clearCart, removeFromCart, updateQuantity } from "./cartSlice";
+import { clearCart, removeFromCart, updateQuantity } from "./CartSlice";
 import { FaTrash, FaInfoCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import "./cart.css";
 
-function cart() {
+function Cart() {
   const cartItems = useSelector((state) => state.cart.items);
   const totalPrice = useSelector((state) => state.cart.totalPrice);
   const dispatch = useDispatch();
@@ -283,4 +283,4 @@ function cart() {
   );
 }
 
-export default cart;
+export default Cart;

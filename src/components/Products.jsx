@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Button, Dropdown, Row, Col, Toast } from "react-bootstrap";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addToCart } from "./cartSlice";
+import { addToCart } from "./CartSlice";
 import { useNavigate } from "react-router-dom";
 import "./products.css";
 
@@ -79,7 +79,7 @@ const items = [
   },
 ];
 
-function products() {
+function Products() {
   // Initialize with Red as default color for all items
   const initColors = {};
   items.forEach((item) => {
@@ -212,4 +212,4 @@ function products() {
   );
 }
 
-export default products;
+export default Products;

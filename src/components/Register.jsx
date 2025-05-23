@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 import "./register.css";
 
-function register() {
+function Register() {
   const navigate = useNavigate();
 
   // Validate form input
@@ -220,7 +220,7 @@ function register() {
   );
 }
 
-export default register;
+export default Register;
 
 /* References:
 1. Formik Documentation: https://formik.org/docs/overview 
