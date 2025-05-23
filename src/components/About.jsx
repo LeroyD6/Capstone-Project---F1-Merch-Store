@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Card, Row, Col, Figure } from "react-bootstrap";
-import "./About.css";
+import "./about.css";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
-function About() {
+function about() {
   return (
     <div className="about-page bg-dark text-white d-flex flex-column">
       <Container className="flex-grow-1 py-5">
@@ -163,4 +163,4 @@ function About() {
   );
 }
 
-export default About;
+export default about;

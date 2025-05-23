@@ -2,9 +2,9 @@ import React from "react";
 import { Card, Button, Form, Container, Row, Col } from "react-bootstrap";
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
-import "./Register.css";
+import "./register.css";
 
-function Register() {
+function register() {
   const navigate = useNavigate();
 
   // Validate form input
@@ -220,7 +220,7 @@ function Register() {
   );
 }
 
-export default Register;
+export default register;
 
 /* References:
 1. Formik Documentation: https://formik.org/docs/overview 

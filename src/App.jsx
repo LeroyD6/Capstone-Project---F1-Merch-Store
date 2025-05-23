@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Products from "./components/Products";
-import About from "./components/About";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Navbar from "./components/navbar";
+import Home from "./components/home";
+import Products from "./components/products";
+import About from "./components/about";
+import Login from "./components/login";
+import Register from "./components/register";
 import Cart from "./components/cart";
 import { useEffect, useState } from "react";
 

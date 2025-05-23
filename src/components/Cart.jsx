@@ -4,9 +4,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { clearCart, removeFromCart, updateQuantity } from "./cartSlice";
 import { FaTrash, FaInfoCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import "./Cart.css";
+import "./cart.css";
 
-function Cart() {
+function cart() {
   const cartItems = useSelector((state) => state.cart.items);
   const totalPrice = useSelector((state) => state.cart.totalPrice);
   const dispatch = useDispatch();
@@ -283,4 +283,4 @@ function Cart() {
   );
 }
 
-export default Cart;
+export default cart;

@@ -2,9 +2,9 @@ import React from "react";
 import { Card, Button, Form, Container, Alert } from "react-bootstrap";
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
-import "./Login.css";
+import "./login.css";
 
-function Login({ setLoggedIn, setUsername, setTotal }) {
+function login({ setLoggedIn, setUsername, setTotal }) {
   const navigate = useNavigate();
 
   // Validate form input
@@ -118,7 +118,7 @@ function Login({ setLoggedIn, setUsername, setTotal }) {
   );
 }
 
-export default Login;
+export default login;
 /* References:
 1. Formik Documentation: https://formik.org/docs/overview 
 */

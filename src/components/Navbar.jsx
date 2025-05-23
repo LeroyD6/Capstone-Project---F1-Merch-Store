@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Navbar, Nav, Container, Image, Button } from "react-bootstrap";
-import "./Navbar.css";
+import "./navbar.css";
 
 
-function NavigationBar({ loggedIn, handleLogout }) {
+function navigationBar({ loggedIn, handleLogout }) {
   const navigate = useNavigate(); 
   
   // Function to handle logout and redirect to login page
@@ -63,4 +63,4 @@ function NavigationBar({ loggedIn, handleLogout }) {
   );
 }
 
-export default NavigationBar;
+export default navigationBar;

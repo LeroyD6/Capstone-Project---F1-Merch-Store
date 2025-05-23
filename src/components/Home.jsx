@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import "./Home.css";
+import "./home.css";
 
-function Home({ loggedIn, username, handleLogout }) {
+function home({ loggedIn, username, handleLogout }) {
   const navigate = useNavigate();
 
   return (
@@ -43,4 +43,4 @@ function Home({ loggedIn, username, handleLogout }) {
   );
 }
 
-export default Home;
+export default home;

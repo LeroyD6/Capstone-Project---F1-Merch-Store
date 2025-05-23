@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "./cartSlice";
 import { useNavigate } from "react-router-dom";
-import "./Products.css";
+import "./products.css";
 
 const items = [
   {
@@ -79,7 +79,7 @@ const items = [
   },
 ];
 
-function Products() {
+function products() {
   // Initialize with Red as default color for all items
   const initColors = {};
   items.forEach((item) => {
@@ -212,4 +212,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default products;
