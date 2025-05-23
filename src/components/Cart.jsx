@@ -49,7 +49,7 @@ function Cart() {
     setTimeout(() => {
       dispatch(clearCart());
       setOrderPlaced(false);
-    }, 3000);
+    }, 1000);
   };
 
   // Handle continue shopping
