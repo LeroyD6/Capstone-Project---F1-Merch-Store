@@ -18,7 +18,7 @@ function NavigationBar({ loggedIn, handleLogout }) {
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center gap-2">
           <Image
-            src="src/assets/F1 merch logo.jpg"
+            src="/product images/F1 merch logo.jpg"
             alt="F1 Merch Logo"
             width={70}
             height={50}

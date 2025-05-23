@@ -16,7 +16,7 @@ function About() {
               width={150}
               height={100}
               alt="F1 Merch Logo"
-              src="src/assets/F1 merch logo.jpg"
+              src="/product images/F1 merch logo.jpg"
               className="mx-auto d-block"
               rounded
             />
@@ -57,7 +57,7 @@ function About() {
                 width={300}
                 height={300}
                 alt="Store Location 1"
-                src="src/assets/ferrari-store-1.jpg"
+                src="/product images/ferrari-store-1.jpg"
                 className="mx-auto d-block"
                 rounded
               />
@@ -70,7 +70,7 @@ function About() {
                 width={300}
                 height={300}
                 alt="Store Location 2"
-                src="src/assets/ferrari-store-2.jpg"
+                src="/product images/ferrari-store-2.jpg"
                 className="mx-auto d-block"
                 rounded
               />
