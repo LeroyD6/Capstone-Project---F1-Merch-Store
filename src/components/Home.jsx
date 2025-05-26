@@ -8,6 +8,7 @@ function Home({ loggedIn, username, handleLogout }) {
 
   return (
     <div className="home-page d-flex justify-content-center align-items-center">
+      {" "}
       <Card className="shadow">
         <Card.Body>
           {loggedIn ? (

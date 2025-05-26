@@ -3,16 +3,15 @@ import { Link, useNavigate } from "react-router-dom";
 import { Navbar, Nav, Container, Image, Button } from "react-bootstrap";
 import "./navbar.css";
 
-
 function NavigationBar({ loggedIn, handleLogout }) {
-  const navigate = useNavigate(); 
-  
+  const navigate = useNavigate();
+
   // Function to handle logout and redirect to login page
   const handleLogoutAndRedirect = () => {
-    handleLogout(); 
-    navigate("/login"); 
+    handleLogout();
+    navigate("/login");
   };
-  
+
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="py-1">
       <Container>
@@ -37,11 +36,10 @@ function NavigationBar({ loggedIn, handleLogout }) {
             </Nav.Link>
             <Nav.Link as={Link} to="/about">
               About
-            </Nav.Link>
+            </Nav.Link>{" "}
             <Nav.Link as={Link} to="/cart">
               Cart
             </Nav.Link>
-            
             {loggedIn ? (
               <Button
                 variant="outline-danger"

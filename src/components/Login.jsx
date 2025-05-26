@@ -27,7 +27,6 @@ function Login({ setLoggedIn, setUsername, setTotal }) {
 
     return errors;
   };
-
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -35,11 +34,16 @@ function Login({ setLoggedIn, setUsername, setTotal }) {
     },
     validate,
     onSubmit: (values) => {
-      const name = values.email.split("@")[0];// Extract username from email
-      setUsername(name);
+      const username = values.email.split("@")[0]; // Extract username from email
       setLoggedIn(true);
+      setUsername(username);
       setTotal(0);
-      navigate("/");// Redirect to home page after successful login
+
+      // Persist authentication state in localStorage
+      localStorage.setItem("loggedIn", "true");
+      localStorage.setItem("username", username);
+
+      navigate("/"); // Redirect to home page after successful login
     },
   });
 
