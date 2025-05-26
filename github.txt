@@ -1,0 +1,11 @@
+# F1 Merch Store - React App
+
+## 📌 Project Overview
+
+The **F1 Merch Store** is a responsive e-commerce web application built with **React**. It allows users to browse **Ferrari F1 merchandise**, register/login, add items to a shopping cart, and simulate checkout with various shipping options. It uses **Redux Toolkit** for state management and **React-Bootstrap** for the UI.
+
+This project demonstrates core React concepts including state management, routing, form handling, and responsive design.
+
+To view this project follow the URL https://capstone-project-f1-merch-store.onrender.com
+
+---
